@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
-// import { getDocs, collection } from 'firebase/firestore';
-// import { db } from '../../firebase';
 
 const Portfolio = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -19,59 +17,75 @@ const Portfolio = () => {
     }
   })
 
-//   useEffect(() => {
-//     getPortfolio()
-//   }, [])
-
-//   const getPortfolio = () => {
-//     setPortfolio({
-//       portfolio: [
-//         {
-//           image: '/src/assets/images/logo4.png',
-//           name: 'src/assets/images/logo4.png',
-//           title: 'TO DO',
-//           description: 'React, JSX, Tailwind, Jest',
-//           url: 'https://alsatarysamah.github.io/todo-app/',
-//         },
-//       ],
-//     })
-//     console.log(portfolio)
-//   }
-
   const renderPortfolio = (portfolio) => {
     return (
       <div className="images-container">
         <div className="image-box">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/800px-Image_created_with_a_mobile_phone.png"
+            src="https://assets-global.website-files.com/619cef5c40cb8925cd33ece3/621e3d842f5305af9170e4eb_619cef5c40cb8963c133f5fc_6076f40a7bc433d96f4663f4_template-vignette-TO-DO-LIST-1200x900.png"
             className="portfolio-image"
             alt="portfolio"
           />
 
           <div className="content">
             <p className="title">To Do</p>
-            <h4 className="description">API app</h4>
+            <h4 className="description">
+              A Web Application for securely managing a To Do List
+            </h4>
 
-            <button className="btn" onClick={() => window.open("https://alsatarysamah.github.io/todo-app/")}>
+            <button
+              className="btn"
+              onClick={() =>
+                window.open('https://alsatarysamah.github.io/todo-app/')
+              }
+            >
               View
             </button>
           </div>
         </div>
         <div className="image-box">
           <img
-            src="./src/assets/images/logopreload.png"
+            src="https://github.com/WISTA02/talabat-clone/blob/main/assest/mr.del1111.png?raw=true"    className="portfolio-image"
+            alt="portfolio"
+          />
+
+          <div className="content">
+            <p className="title">Mr.Delivery</p>
+            <h4 className="description">
+              A Web Application for food delivery
+            </h4>
+
+            <button
+              className="btn"
+              onClick={() =>
+                window.open('https://github.com/WISTA02/talabat-clone')
+              }
+            >
+              View
+            </button>
+          </div>
+        </div>
+        <div className="image-box">
+          <img
+            src="https://www.testgrid.io/blog/wp-content/uploads/2021/06/19_Api_testing.jpg"
             className="portfolio-image"
             alt="portfolio"
           />
 
           <div className="content">
-            <p className="title">To Do</p>
-            <h4 className="description">API app</h4>
-
-            <button className="btn" onClick={() => window.open(portfolio.url)}>
+            <p className="title">Resty</p>
+            <h4 className="description">API testing</h4>
+            <button
+              className="btn"
+              onClick={() =>
+                window.open('https://alsatarysamah.github.io/resty/')
+              }
+            >
               View
             </button>
+            
           </div>
+          
         </div>
       </div>
     )

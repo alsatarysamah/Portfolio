@@ -1,10 +1,14 @@
 import { useEffect, useState } from 'react'
 import {
   faAngular,
+  faBootstrap,
   faCss3,
+  faGit,
   faGitAlt,
+  faGithub,
   faHtml5,
   faJsSquare,
+  faNodeJs,
   faReact,
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
@@ -47,7 +51,7 @@ const About = () => {
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+              <FontAwesomeIcon icon={faGit} color="#DD0031" />
             </div>
             <div className="face2">
               <FontAwesomeIcon icon={faHtml5} color="#F06529" />
@@ -59,10 +63,10 @@ const About = () => {
               <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
             </div>
             <div className="face5">
-              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+              <FontAwesomeIcon icon={faBootstrap} color="#EFD81D" />
             </div>
             <div className="face6">
-              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+              <FontAwesomeIcon icon={faNodeJs} color="#EC4D28" />
             </div>
           </div>
         </div>

@@ -89,7 +89,21 @@
   animation: backInRight 1s 1.2s;
   animation-fill-mode: forwards;
 }
+p {
+  p {
+    padding: 7px 0;
+    display: block;
+    font-size: 50px;
+    line-height: 20px;
+    color: #4d4d4e;
+  }
 
+  &:hover {
+    .anchor-icon {
+      color: #ffd700;
+    }
+  }
+}
 .info-map {
   position: absolute;
   background: #000;

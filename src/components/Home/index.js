@@ -37,7 +37,7 @@ const Home = () => {
     <>
       <div className="container home-page">
         <div className="text-zone">
-          <h1>
+          <div className='hone'>
             <span className={letterClass}>H</span>
             <span className={`${letterClass} _12`}>i,</span>
             <br />
@@ -58,8 +58,8 @@ const Home = () => {
               strArray={jobArray}
               idx={22}
             />
-          </h1>
-          <h2>Front End Developer /Back End Developer /JavaScript Expert </h2>
+          </div>
+          <h1>Front End Developer /Back End Developer /JavaScript Expert </h1>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>

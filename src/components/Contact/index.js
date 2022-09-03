@@ -5,7 +5,9 @@ import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
-
+import {faPhone
+} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const form = useRef()
@@ -48,6 +50,15 @@ const Contact = () => {
             or large projects. However, if you have any other requests or
             questions, don't hesitate to contact me using below form either.
           </p>
+         
+          <p href="skype:live:bobangajicsm" rel="noreferrer" target="_blank">
+            <FontAwesomeIcon
+              icon={faPhone}
+              color="#4d4d4e"
+              className="anchor-icon"
+            /> +962790548262
+          </p>
+        
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
               <ul>
@@ -84,7 +95,7 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <div className="info-map">
+        {/* <div className="info-map">
           Slobodan Gajić,
           <br />
           Serbia,
@@ -93,7 +104,7 @@ const Contact = () => {
           Sremska Mitrovica <br />
           <br />
           <span>alsatary.samah@yahoo.com</span>
-        </div>
+        </div> */}
         {/* <div className="map-wrap">
           <MapContainer center={[44.96366, 19.61045]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
