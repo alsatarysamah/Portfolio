@@ -71,7 +71,7 @@ const Contact = () => {
               icon={faYahoo}
               color="#4d4d4e"
               className="anchor-icon"
-            /> alsatry.samah@yahoo.com
+            /> alsatary.samah@yahoo.com
           </p>
          
           {/* <div className="contact-form">
