@@ -7,6 +7,13 @@ import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import {faPhone
 } from '@fortawesome/free-solid-svg-icons'
+import {
+  faLinkedin,
+  faGithub,
+  faYoutube,
+  faSkype,
+  faYahoo,
+} from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -56,10 +63,18 @@ const Contact = () => {
               icon={faPhone}
               color="#4d4d4e"
               className="anchor-icon"
-            /> +962790548262
+            /> +962-79-0548262
           </p>
-        
-          <div className="contact-form">
+
+          <p href="skype:live:bobangajicsm" rel="noreferrer" target="_blank">
+            <FontAwesomeIcon
+              icon={faYahoo}
+              color="#4d4d4e"
+              className="anchor-icon"
+            /> alsatry.samah@yahoo.com
+          </p>
+         
+          {/* <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
@@ -93,7 +108,7 @@ const Contact = () => {
                 </li>
               </ul>
             </form>
-          </div>
+          </div> */}
         </div>
         {/* <div className="info-map">
           Slobodan Gajić,

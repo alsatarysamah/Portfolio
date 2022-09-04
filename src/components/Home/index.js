@@ -65,6 +65,7 @@ const Home = () => {
           </Link>
         </div>
         <Logo />
+        <img href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrhh-2Jy0QFHOU2HPjPIe6QSp4bzuhizTNhHlHjBrgdQ&s"></img>
       </div>
 
       <Loader type="pacman" />
