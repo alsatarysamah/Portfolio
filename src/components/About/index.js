@@ -42,9 +42,13 @@ const About = () => {
             technologies on challenging and diverse projects.
           </p>
           <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+           Education:
+           
+           
           </p>
+          <p>2005-2010	  Jordan University Of Science And Technology,
+                       Bachelor in Computer Engineering, Jordan. GPA:Very Good</p>
+                       <p>2005  	 High School degree(Twjihi), Jordan. GPA:90%</p>
           
         </div>
 

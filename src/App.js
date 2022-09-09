@@ -14,13 +14,13 @@ function App() {
   return (
     <>
       {/* <Sidebar /> */}
-      <Routes>
-        <Route path="/portfolio" element={<Layout />} >
+      <Routes >
+        <Route path="/" element={<Layout />} >
         <Route index element={<Home />} />
-        <Route path="portfolio/portfolio/about" element={<About />} />
-        <Route path="portfolio/portfolio/contact" element={<Contact />} />
-        <Route path="portfolio/portfolio/projects" element={<Portfolio />} />
-        <Route path="portfolio/portfolio/dashboard" element={<Dashboard />} />
+        <Route index path="/about" element={<About />} />
+        <Route index path="/contact" element={<Contact />} />
+        <Route index path="/projects" element={<Portfolio />} />
+        <Route index path="/dashboard" element={<Dashboard />} />
         </Route>
       </Routes>
     </>

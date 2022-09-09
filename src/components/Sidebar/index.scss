@@ -1,6 +1,6 @@
 .nav-bar {
   background: #27839f;
-  width: 60px;
+  width: 70px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -40,6 +40,7 @@
       height: 51px;
       position: relative;
       text-decoration: none;
+      
 
       i {
         transition: all 0.3s ease-out;
@@ -120,11 +121,13 @@
         font-size: 15px;
         line-height: 16px;
         color: #4d4d4e;
+        
       }
 
       &:hover {
         .anchor-icon {
           color: #ffd700;
+          
         }
       }
     }
