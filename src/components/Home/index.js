@@ -45,7 +45,7 @@ const Home = () => {
             <span className={`${letterClass} _14`}>'m</span>
             <img
               src={LogoTitle}
-              alt="JavaScript Developer Name, Web Developer Name"
+              alt="Samah Alsatary"
             />
             <AnimatedLetters
               letterClass={letterClass}
@@ -64,7 +64,7 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        <Logo />
+        
         <img href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrhh-2Jy0QFHOU2HPjPIe6QSp4bzuhizTNhHlHjBrgdQ&s"></img>
       </div>
 

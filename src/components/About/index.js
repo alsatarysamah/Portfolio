@@ -50,10 +50,10 @@ const About = () => {
             Science And Technology, Bachelor in Computer Engineering, Jordan.
             GPA:Very Good
           </p>
-          <p align="LEFT">
+          {/* <p align="LEFT">
             <td class="animate__flipOutX">2005</td> High School degree(Twjihi),
             Jordan. GPA:90%
-          </p>
+          </p> */}
         </div>
 
         <div className="stage-cube-cont">

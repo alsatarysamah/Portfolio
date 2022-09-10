@@ -49,8 +49,8 @@ const Portfolio = () => {
             alt="portfolio"
           />
 
-          <div className="content">
-            <p className="title">Mr.Delivery</p>
+          <div className="content" >
+            <p className="title" id='mr'>Mr.Delivery</p>
             <h4 className="description">
               A Web Application for food delivery
             </h4>
@@ -73,7 +73,7 @@ const Portfolio = () => {
           />
 
           <div className="content">
-            <p className="title">Resty</p>
+            <p className="title" id='mr'>Resty</p>
             <h4 className="description">API testing</h4>
             <button
               className="btn"
