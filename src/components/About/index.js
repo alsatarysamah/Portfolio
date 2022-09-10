@@ -15,7 +15,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
-
+import 'animate.css'
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
@@ -37,19 +37,23 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious full-stack  developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            I'm a person with a positive attitude, strong work ethic, and a keen
+            desire for learning and development..
+          </p>
+          <p align="LEFT">Education:</p>
+          <p align="LEFT">
+            <td class="animate__flipOutX">2022</td> ASAC/LUMINUS, NodeJS/React
+            internship, Jordan.
           </p>
           <p align="LEFT">
-           Education:
-           
-           
+            <td class="animate__flipOutX">2005-2010 </td> Jordan University Of
+            Science And Technology, Bachelor in Computer Engineering, Jordan.
+            GPA:Very Good
           </p>
-          <p>2005-2010	  Jordan University Of Science And Technology,
-                       Bachelor in Computer Engineering, Jordan. GPA:Very Good</p>
-                       <p>2005  	 High School degree(Twjihi), Jordan. GPA:90%</p>
-          
+          <p align="LEFT">
+            <td class="animate__flipOutX">2005</td> High School degree(Twjihi),
+            Jordan. GPA:90%
+          </p>
         </div>
 
         <div className="stage-cube-cont">
