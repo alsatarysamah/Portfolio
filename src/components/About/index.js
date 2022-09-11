@@ -40,8 +40,9 @@ const About = () => {
             I'm a person with a positive attitude, strong work ethic, and a keen
             desire for learning and development..
           </p>
-          <p align="LEFT">Education:</p>
-          <p align="LEFT">
+          <div id="education">
+          <p align="LEFT" >Education:</p>
+          <p align="LEFT" >
             <td class="animate__flipOutX">2022</td> ASAC/LUMINUS, NodeJS/React
             internship, Jordan.
           </p>
@@ -54,6 +55,7 @@ const About = () => {
             <td class="animate__flipOutX">2005</td> High School degree(Twjihi),
             Jordan. GPA:90%
           </p> */}
+          </div>
         </div>
 
         <div className="stage-cube-cont">
